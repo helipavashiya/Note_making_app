@@ -20,6 +20,7 @@ def index():
 # 127.0.0.1 => loopback or localhost address  
 # run on local host -->  app.run(debug=True)
 # 0.0.0.0 => broadcasting 
+# we can deploy the app on LAN through broadacasting
 
 if __name__ == '__main__':
     app.run(debug=True,host="0.0.0.0")
